@@ -16,6 +16,7 @@ cc_defaults {
 
 cc_library_static {
     name: "libinit_kona",
+    recovery_available: true,
     defaults: ["libinit_kona_defaults"],
     srcs: ["libinit_kona.cpp"],
     export_include_dirs: ["include"],
